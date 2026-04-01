@@ -10,8 +10,8 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            naamEnLeeftijd opdracht1 = new naamEnLeeftijd();
-            opdracht1.Start();
+            Kamer_Keuze_Tekst_Game opdracht = new Kamer_Keuze_Tekst_Game();
+            opdracht.start();
         }
     }
 }
