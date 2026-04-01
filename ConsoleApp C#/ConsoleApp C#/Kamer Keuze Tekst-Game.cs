@@ -12,53 +12,48 @@ namespace ConsoleApp_C_
         public void start() 
         {
             Console.WriteLine("Je staat in de keuken. Wil je naar gang of woonkamer?");
-            string keuze1 = Console.ReadLine().ToLower();
+            string keuze1 = Console.ReadLine();
 
             if (keuze1 == "gang")
             {
                 Console.WriteLine("Je loopt de gang in. Waar wil je heen? wc of trap?");
-                string keuze2 = Console.ReadLine().ToLower();
+                string keuze2 = Console.ReadLine();
 
                 if (keuze2 == "wc")
                 {
-                    Console.WriteLine("Je opent de wc deur... er ligt een schat! Je hebt gewonnen!");
+                    Console.WriteLine("Je opent de wc deur... er is niks das pech volgende keer beter ig");
                 }
                 else if (keuze2 == "trap")
                 {
-                    Console.WriteLine("Je loopt de trap op... je struikelt en valt. Je hebt verloren.");
+                    Console.WriteLine("Je loopt de trap op... je struikelt en valt. skill issue");
                 }
                 else
                 {
-                    Console.WriteLine("Ongeldige keuze.");
+                    Console.WriteLine("kies iets anders of type het beter");
                 }
             }
             else if (keuze1 == "woonkamer")
             {
                 Console.WriteLine("Je loopt de woonkamer in. Waar wil je heen? bank of tuin?");
-                string keuze2 = Console.ReadLine().ToLower();
+                string keuze2 = Console.ReadLine();
 
                 if (keuze2 == "bank")
                 {
-                    Console.WriteLine("Je gaat op de bank zitten... en valt in slaap. Einde van het spel.");
+                    Console.WriteLine("Je gaat op de bank zitten en valt in slaap. tenminsten ben je veilig");
                 }
                 else if (keuze2 == "tuin")
                 {
-                    Console.WriteLine("Je loopt de tuin in... een hond jaagt je weg. Je hebt verloren.");
+                    Console.WriteLine("Je loopt de tuin in... een hond jaagt je weg.game over bruh");
                 }
                 else
                 {
-                    Console.WriteLine("Ongeldige keuze.");
+                    Console.WriteLine("tis niet mogelijk kies iets anders");
                 }
             }
             else
             {
-                Console.WriteLine("Ongeldige keuze.");
+                Console.WriteLine("kan niet bro.");
             }
         }
-    
-
-
-
-        
     }
 }
