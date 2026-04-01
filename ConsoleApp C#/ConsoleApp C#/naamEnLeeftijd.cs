@@ -8,7 +8,7 @@ namespace ConsoleApp_C_
 {
     internal class naamEnLeeftijd
     {
-       public void Start()
+       public void start()
         {
             Console.WriteLine("Typ je naam:");
             string naam = Console.ReadLine();
