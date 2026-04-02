@@ -21,11 +21,11 @@ namespace ConsoleApp_C_
 
                 if (keuze2 == "wc")
                 {
-                    Console.WriteLine("Je opent de wc deur... er is niks das pech volgende keer beter ig");
+                    Console.WriteLine("Je opent de wc deur er is niks das pech volgende keer beter ig");
                 }
                 else if (keuze2 == "trap")
                 {
-                    Console.WriteLine("Je loopt de trap op... je struikelt en valt. skill issue");
+                    Console.WriteLine("Je loopt de trap op je struikelt en valt. skill issue");
                 }
                 else
                 {
@@ -43,7 +43,7 @@ namespace ConsoleApp_C_
                 }
                 else if (keuze2 == "tuin")
                 {
-                    Console.WriteLine("Je loopt de tuin in... een hond jaagt je weg.game over bruh");
+                    Console.WriteLine("Je loopt de tuin in een hond jaagt je weg.game over bruh");
                 }
                 else
                 {

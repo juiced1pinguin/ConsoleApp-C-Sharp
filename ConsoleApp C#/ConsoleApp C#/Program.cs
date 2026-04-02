@@ -10,7 +10,7 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            Kamer_Keuze_Tekst_Game opdracht = new Kamer_Keuze_Tekst_Game();
+            Tips_voor_het_weer opdracht = new Tips_voor_het_weer();
             opdracht.start();
         }
     }
