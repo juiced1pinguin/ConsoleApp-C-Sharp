@@ -8,27 +8,52 @@ namespace ConsoleApp_C_
 {
     internal class Tips_voor_het_weer
     {
-        public void start() 
+        public void start()
         {
-            Console.WriteLine("welk weer is het je kunt kiezen uit: Zonnig, Regen, Bewolkt");
+            Console.WriteLine("Welk weer is het? Je kunt kiezen uit: Zonnig, Regen, Bewolkt");
             string weer = Console.ReadLine();
 
-            if(weer == "Zonnig") 
+            Console.WriteLine("Welke temperatuur is het in graden?");
+            int temperatuur = Convert.ToInt32(Console.ReadLine());
+
+            if (weer == "Zonnig")
             {
-                Console.WriteLine("het is zonnig buiten ga eens een stuk lopen");
+                if (temperatuur >= 20)
+                {
+                    Console.WriteLine("Het is zonnig en lekker warm Je hebt geen jas nodig vandaag.");
+                }
+                else
+                {
+                    Console.WriteLine("Het is zonnig maar best fris. dus trek een jas aan");
+                }
             }
-            else if(weer == "Regen") 
+            else if (weer == "Regen")
             {
-                Console.WriteLine("het is regenachtig misschien als je moet slapen kan je beter in slaap vallen");
+                if (temperatuur >= 15)
+                {
+                    Console.WriteLine("Het regent maar het is aan de warme kant dus doe misschien gewoon een dunne regenjas");
+                }
+                else
+                {
+                    Console.WriteLine("Het regent en het is koud. Trek een warme jas aan en blijf misschien gwn binnen");
+                }
             }
-            else if(weer == "Bewolkt") 
+            else if (weer == "Bewolkt")
             {
-                Console.WriteLine("het is bewolkt en dus donker dus doe een lichtje aan en maak het gezellig ofzo");
+                if (temperatuur >= 15)
+                {
+                    Console.WriteLine("Het is bewolkt maar redelijk warm. Je kunt prima naar buiten misschien is een dunne jas handig");
+                }
+                else
+                {
+                    Console.WriteLine("Het is bewolkt en koud dus doe een lichtje aan en misschien de kachel.");
+                }
             }
-            else 
+            else
             {
-                Console.WriteLine("dis is geen geldige keuze of je had de eerste letter niet als hoofdletter getypt");
+                Console.WriteLine("Dit is geen geldige keuze of je hebt de eerste letter niet als hoofdletter getypt.");
             }
         }
+
     }
 }
