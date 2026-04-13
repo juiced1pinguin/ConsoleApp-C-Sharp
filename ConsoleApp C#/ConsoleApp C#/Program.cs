@@ -10,7 +10,7 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            Leeftijd_Berekenen opdracht = new Leeftijd_Berekenen();
+            Tafels_Generator opdracht = new Tafels_Generator();
             opdracht.start();
         }
     }
