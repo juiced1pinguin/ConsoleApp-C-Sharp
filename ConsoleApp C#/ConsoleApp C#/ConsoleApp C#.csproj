@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Kamer Keuze Tekst-Game.cs" />
+    <Compile Include="Leeftijd Berekenen.cs" />
     <Compile Include="naamEnLeeftijd.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

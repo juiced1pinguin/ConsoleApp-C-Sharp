@@ -10,7 +10,7 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            Tips_voor_het_weer opdracht = new Tips_voor_het_weer();
+            Leeftijd_Berekenen opdracht = new Leeftijd_Berekenen();
             opdracht.start();
         }
     }
