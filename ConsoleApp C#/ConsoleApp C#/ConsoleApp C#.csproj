@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="getal raden.cs" />
     <Compile Include="Kamer Keuze Tekst-Game.cs" />
     <Compile Include="Leeftijd Berekenen.cs" />
     <Compile Include="naamEnLeeftijd.cs" />

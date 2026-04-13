@@ -10,7 +10,7 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            Tafels_Generator opdracht = new Tafels_Generator();
+            getal_raden opdracht = new getal_raden();
             opdracht.start();
         }
     }
