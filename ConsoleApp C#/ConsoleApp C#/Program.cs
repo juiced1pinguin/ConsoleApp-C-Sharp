@@ -10,7 +10,7 @@ namespace ConsoleApp_C_
     {
         static void Main(string[] args)
         {
-            getal_raden opdracht = new getal_raden();
+            DobbelsteenGooien opdracht = new DobbelsteenGooien();
             opdracht.start();
         }
     }
