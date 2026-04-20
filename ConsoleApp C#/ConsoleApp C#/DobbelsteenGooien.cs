@@ -11,14 +11,17 @@ namespace ConsoleApp_C_
         public void start()
         {
             Random rnd = new Random();
+
+            int aantal_1 = 0;
+            int aantal_2 = 0;
+            int aantal_3 = 0;
+            int aantal_4 = 0;
+            int aantal_5 = 0;
+            int aantal_6 = 0;
+
             for (int i = 1; i <= 100; i++)
             {
-                int aantal_1 = 0;
-                int aantal_2 = 0;
-                int aantal_3 = 0;
-                int aantal_4 = 0;
-                int aantal_5 = 0;
-                int aantal_6 = 0;
+                
                 int dobbelsteen = rnd.Next(1, 7);
 
                 if(dobbelsteen < 7)
@@ -28,22 +31,27 @@ namespace ConsoleApp_C_
 
                 if(dobbelsteen == 1)
                 {
-                    aantal_1 =+ 1;
-                } else if (dobbelsteen == 2)
+                    aantal_1++;
+                }
+                if (dobbelsteen == 2)
                 {
-                    aantal_2 =+ 1;
-                } else if (dobbelsteen == 3)
+                    aantal_2++;
+                } 
+                if (dobbelsteen == 3)
                 {
-                    aantal_3 =+ 1;
-                } else if (dobbelsteen == 4)
+                    aantal_3++;
+                } 
+                if (dobbelsteen == 4)
                 {
-                    aantal_4 =+ 1;
-                }else if (dobbelsteen == 5)
+                    aantal_4++;
+                }
+                if (dobbelsteen == 5)
                 {
-                    aantal_5 =+ 1;
-                }else if (dobbelsteen == 6)
+                    aantal_5++;
+                }
+                if (dobbelsteen == 6)
                 {
-                    aantal_6 =+ 1;
+                    aantal_6++;
                 }
 
                 if(i == 100)
